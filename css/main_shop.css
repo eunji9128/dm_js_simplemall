@@ -1,0 +1,173 @@
+/* css reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* customized util */
+
+
+/* customized css */
+
+
+body {
+    background: #eee;
+}
+
+.dp-container {
+    padding: 20px;
+    width: 100%;
+}
+
+.dp-box {
+    width: 100%;
+    display: flex;
+}
+
+.dp-card {
+    width: 24%;
+    background: white;
+    padding: 20px;
+    margin: 10px;
+}
+
+.dp-card img{
+    width: 100%;
+}
+
+.dp-search {
+    margin: 10px;
+}
+
+.black-btn {
+    padding: 4px 8px 4px 8px;
+    margin-top: 16px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+
+.cart-container {
+    width: 100%;
+    background: lightgray;
+    padding: 20px;
+}
+
+.cart-box {
+    width: 100%;
+    height: 500px;
+    background: black;
+    margin-top: 12px;
+    color: white;
+    
+}
+
+.cart-box span {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy-container {
+    width: 100%;
+    padding: 20px;
+}
+
+.modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    padding-top: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 5;
+}
+
+.modal-box {
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    z-index: 6;
+}
+
+.white-box {
+    background: white;
+    color: black;
+    border: black solid 1px;
+}
+
+.bill-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    padding-top: 100px;
+    z-index: 7;
+}
+
+.bill-box {
+    width: 350px;
+    background: white;
+    margin: auto;
+    padding: 20px;
+    z-index: 8;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
